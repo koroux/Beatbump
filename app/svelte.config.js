@@ -21,7 +21,7 @@ const adapters = {
 	node: node({ precompress: true }),
 };
 
-const adapter = adapters[ENV_ADAPTER];
+const adapter = adapters["vercel"];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
